@@ -1,6 +1,6 @@
 
 
-function uppg9 ([]){
+function uppg9 (someArray){
     // skapa en funktion som heter sort och tar in en array av siffror som argument
     // i funktionen du loopa igenom arrayen och kolla med en if-sats om  talet är jämt eller udda
     // i if-sattsen skriv ut i konsolen resultatet
@@ -12,9 +12,9 @@ function uppg9 ([]){
     
     for (let number of numbers){
         if (number % 2 == 0 ){
-            console.log(`${number} är jämt`);
+            console.log(`${number} jämt`);
         } else {
-            console.log(`${number} är udda`);
+            console.log(`${number} udda`);
         }
     }
 }

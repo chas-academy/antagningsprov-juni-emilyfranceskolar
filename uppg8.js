@@ -1,6 +1,6 @@
 
 
-function uppg8([]){
+function uppg8(someArray){
 
 // skapa en array med fem person obkjet
 // varje person objekt ska ha två properties, name och age
@@ -25,5 +25,5 @@ for (let person of persons){
 
 }
 
-uppg8([]);
+uppg8();
 module.exports = { uppg8 };

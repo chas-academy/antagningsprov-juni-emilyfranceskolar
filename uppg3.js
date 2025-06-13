@@ -9,7 +9,7 @@ function uppg3() {
     let num = 5;
     let num2 = 10; 
     let sum = num + num2;
-    console.log(`Summan är ${sum}`);
+    console.log(sum);
 }
 
 uppg3();

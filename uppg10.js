@@ -1,4 +1,4 @@
-function uppg10([]){
+function uppg10(someObject){
     const numbers = [5, 12, 7, 10, 20, 9, 11];
   
     // skapa tre arrayer - bigEven, smallOdd, other
